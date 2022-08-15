@@ -25,7 +25,7 @@ body {
     border-radius: 15px;
 }
 
-.card img{
+.card .img__equilibrium{
     display: block;
     max-width: 100%;
     border-radius: 8%;
@@ -79,8 +79,13 @@ body {
     padding: 0 1rem .5rem;
 }
 
-.creation__profile img {
-    width: 3.8rem;
+.creation__profile .img__avatar {
+    width: 2.0rem;
+    height: 2.0rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
 }
 
 .creator__name {
